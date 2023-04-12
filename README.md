@@ -6,7 +6,7 @@ In this tutorial, you will be learning how to use a regular expression (regex) t
 
 This is the full regex used to identify email addresses: `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`.
 
-As a literal expression, a regex is always wrapped with `/` characters. Within this wrapping, the expression looks for a concurrent string of characters. It identifies email addresses by finding a username, followed by an `@` sign, followed by a domain name, followed by a `.`, followed by a domain extension. While it cannot validate whether these names are real and in-use, this regex does validate whether the string follows the same semantic rules as a valid email address.
+As a literal expression, a regex is always wrapped with `/` characters. Within this wrapping, this regex looks for a concurrent string of characters. It identifies a string as an email addresse by finding a username, followed by an `@` sign, followed by a domain name, followed by a `.`, followed by a domain extension. While it cannot validate whether these names are real and in-use, the regex does validate whether the string follows the same semantic rules as a valid email address.
 
 ## Table of Contents
 
